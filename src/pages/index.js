@@ -73,12 +73,12 @@ class Index extends React.Component {
               <li>
               <span className="image"><img style={{width: "8rem"}} src={javascript} alt="JavaScript" /></span>
                 <h3>JavaScript</h3>
-                <p>Experience using JS since the 'dark days' of the past into the modern era using React, GraphQL  and other modern tools.</p>
+                <p>Years of experience with JavaScript pre-ajax through the current modern era of libraries like React and tools like GraphQL.</p>
               </li>
               <li>
               <span className="image"><img style={{width: "8rem"}} src={linux} alt="Linux" /></span>
                 <h3>Linux</h3>
-                <p>Linux server administration with a long history of deploying and maintaining large applications.  Perpetually on call since 2005 or so.</p>
+                <p>Linux server administration with a long history of deploying and maintaining large applications.  Perpetually on-call since 2005 or so.</p>
               </li>
             </ul>
           </section>
