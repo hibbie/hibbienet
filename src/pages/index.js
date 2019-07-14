@@ -6,7 +6,10 @@ import Waypoint from 'react-waypoint'
 import Layout from '../components/layout'
 import Header from '../components/Header'
 import Nav from '../components/Nav'
-import pic01 from '../assets/images/pic01.jpg'
+import hibbie from '../assets/images/hibbie.png'
+import python from "../assets/images/python.svg"
+import javascript from "../assets/images/javascript.svg"
+import linux from "../assets/images/linux.svg"
 
 class Index extends React.Component {
   constructor(props) {
@@ -28,7 +31,7 @@ class Index extends React.Component {
 
     return (
       <Layout>
-        <Helmet title="Gatsby Starter - Stellar" />
+        <Helmet title="Thomas Hibbard - hibbie.net" />
 
         <Header />
 
@@ -45,93 +48,54 @@ class Index extends React.Component {
             <div className="spotlight">
               <div className="content">
                 <header className="major">
-                  <h2>Ipsum sed adipiscing</h2>
+                  <h2>About me</h2>
                 </header>
-                <p>Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat magna
-                adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus.
-                Tempus nisl et nullam lorem ipsum dolor sit amet aliquam.</p>
+                <p>Hi there.  This is my personal site for my development work.  I am a developer primarily focused on the web.  I've worked in the tech industry since 2005 and as a professional developer since 2007.  My work have primarily been in the web development field.</p>
+                <p>I am experienced as a senior Python developer and Linux systems administrator.  Throughout the years, I've mentored and led development teams, worked directly with clients, and managed large development projects to completion.  </p>
                 <ul className="actions">
-                  <li><Link to="/generic" className="button">Learn More</Link></li>
+                  <li><Link to="#cta" className="button">Connect</Link></li>
                 </ul>
               </div>
-              <span className="image"><img src={pic01} alt="" /></span>
+              <span className="image"><img src={hibbie} alt="" /></span>
             </div>
           </section>
 
           <section id="first" className="main special">
             <header className="major">
-              <h2>Magna veroeros</h2>
+              <h2>Development</h2>
             </header>
             <ul className="features">
               <li>
-                <span className="icon major style1 fa-code"></span>
-                <h3>Ipsum consequat</h3>
-                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                <span className="image"><img style={{width: "8rem"}} src={python} alt="Python" /></span>
+                <h3>Python</h3>
+                <p>Experienced using Django, Flask and other frameworks to build web applications of all sizes.</p>
               </li>
               <li>
-                <span className="icon major style3 fa-copy"></span>
-                <h3>Amed sed feugiat</h3>
-                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+              <span className="image"><img style={{width: "8rem"}} src={javascript} alt="JavaScript" /></span>
+                <h3>JavaScript</h3>
+                <p>Experience using JS since the 'dark days' of the past into the modern era using React, GraphQL  and other modern tools.</p>
               </li>
               <li>
-                <span className="icon major style5 fa-diamond"></span>
-                <h3>Dolor nullam</h3>
-                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+              <span className="image"><img style={{width: "8rem"}} src={linux} alt="Linux" /></span>
+                <h3>Linux</h3>
+                <p>Linux server administration with a long history of deploying and maintaining large applications.  Perpetually on call since 2005 or so.</p>
               </li>
             </ul>
-            <footer className="major">
-              <ul className="actions">
-                <li><Link to="/generic" className="button">Learn More</Link></li>
-              </ul>
-            </footer>
-          </section>
-
-          <section id="second" className="main special">
-            <header className="major">
-              <h2>Ipsum consequat</h2>
-              <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-              posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
-            </header>
-            <ul className="statistics">
-              <li className="style1">
-                <span className="icon fa-code-fork"></span>
-                <strong>5,120</strong> Etiam
-              </li>
-              <li className="style2">
-                <span className="icon fa-folder-open-o"></span>
-                <strong>8,192</strong> Magna
-              </li>
-              <li className="style3">
-                <span className="icon fa-signal"></span>
-                <strong>2,048</strong> Tempus
-              </li>
-              <li className="style4">
-                <span className="icon fa-laptop"></span>
-                <strong>4,096</strong> Aliquam
-              </li>
-              <li className="style5">
-                <span className="icon fa-diamond"></span>
-                <strong>1,024</strong> Nullam
-              </li>
-            </ul>
-            <p className="content">Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.</p>
-            <footer className="major">
-              <ul className="actions">
-                <li><Link to="/generic" className="button">Learn More</Link></li>
-              </ul>
-            </footer>
           </section>
 
           <section id="cta" className="main special">
             <header className="major">
-              <h2>Congue imperdiet</h2>
-              <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-              posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+              <h2>Connect with me</h2>
+              <p>E-mail me directly at: <a href="mailto:me@hibbie.net">me@hibbie.net</a></p>
+
             </header>
             <footer className="major">
-              <ul className="actions">
-                <li><Link to="/generic" className="button special">Get Started</Link></li>
-                <li><Link to="/generic" className="button">Learn More</Link></li>
+              <ul className="icons">
+                  <li><a href="https://www.linkedin.com/in/hibbie/" className="icon fa-linkedin alt"><span className="label">LinkedIn</span></a></li>
+                  <li><a href="https://github.com/hibbie/" className="icon fa-github alt"><span className="label">GitHub</span></a></li>
+                  <li><a href="https://gitlab.com/hibbie/" className="icon fa-gitlab alt"><span className="label">Gitlab</span></a></li>
+                  <li><a href="https://dribbble.com/hibbie" className="icon fa-dribbble alt"><span className="label">Dribbble</span></a></li>
+                  <li><a href="https://twitter.com/hibb" className="icon fa-twitter alt"><span className="label">Twitter</span></a></li>
               </ul>
             </footer>
           </section>
